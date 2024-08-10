@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    margin: auto;
+    width: 70%;
+    margin: 50px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.Hat {
+    background-color: #65DAFF;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    height: 50px;
+    position: relative;
+}
+
+.Back {
+    background-color: white;
+    text-decoration: none;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    left: 0;
+    top: 0;
+}
+
+.Hat-text {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+body {
+    background-color: #222222;
+}
+
+.conteiner {
+    padding: 30px;
+}
+
+.wraper {
+    margin: 25px 0px;
+    color: white;
+}
+
+.FName,
+.SName {
+    background: none;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px white solid;
+}
+
+.gender {
+    color: white;
+    margin: 20px 0;
+}
+
+legend {
+    color: white;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+.pol {
+    margin-right: 20PX;
+}
+
+.Coment {
+    resize: none;
+    background: none;
+    width: 100%;
+    border: 1px white solid;
+    height: 200px;
+    padding: 15px;
+}
+
+.submin {
+    margin-top: 20px;
+    padding: 25px 90px;
+    background: linear-gradient(80deg, #65daff, #70ffcb);
+    color: white;
+    margin-left: 35%;
+    font-size: 25px;
+}
