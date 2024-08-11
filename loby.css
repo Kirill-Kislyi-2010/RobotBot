@@ -233,3 +233,121 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+
+@media (max-width:768px) {
+    .conteiner {
+        width: 768px;
+    }
+
+    .Nav-meny {
+        height: fit-content;
+    }
+
+    .navigation-item {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .navigation {
+        float: none;
+    }
+
+    /* HAT */
+    .site-hat {
+        background-position: right;
+    }
+
+    .hat-title {
+        font-size: 30px;
+    }
+
+    .hat-content {
+        width: 100%;
+    }
+
+    .hat-sub-title {
+        font-size: 20px;
+        color: #4E4E4E;
+    }
+
+    /* About--------------------------------------------------- */
+    .about {
+        height: 40vh;
+        text-align: center;
+    }
+
+    .about-card {
+        display: inline-block;
+        margin-top: 100px;
+        width: 24%;
+        vertical-align: top;
+        height: 200PX;
+    }
+
+    .about-card-img {
+        height: 130px;
+        margin-bottom: 30px;
+    }
+
+    .about-card-title {
+        color: #65DAFF;
+        font-size: 15px;
+    }
+
+    /* Games---------------------------------------------------- */
+    .games-conteiner {
+        margin-top: 50px;
+    }
+
+    .game-img {
+        margin-top: 15px;
+        width: 100%;
+        height: 350px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .game-card-content {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+        padding: 0px 15px;
+        min-height: 350px;
+        vertical-align: top;
+    }
+
+
+    .game-discrption {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .game-divider {
+        margin: 20px 0px;
+        width: 130px;
+    }
+
+    .game-title {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    /* Click here------------------------------------- */
+    .click-here-text {
+        color: white;
+        font-size: 50px;
+        display: inline-block;
+        margin-right: 70px;
+    }
+
+    .click-here-btn {
+        color: white;
+        background-color: #222222;
+        padding: 20px 70px;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
